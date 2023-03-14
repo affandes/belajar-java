@@ -29,12 +29,12 @@ Yang menjadi catatan penting adalah komputer yang kita miliki haruslah keluaran 
 
 Secara umum ada 2 aplikasi yang harus kita instal pada komputer. Kedua aplikasi ini digunakan untuk memungkinkan kita menulis kode program dan menjalankan kode program tersebut, di antaranya:
 
-1. **Java Development Kit (JDK)**. Digunakan untuk menjalankan kode program yang kita tulis. Ada beberapa jenis JDK yang bisa kita pilih, di antaranya: JDK dari Oracle, OpenJDK, Adoptium (dulu namanya AdoptJDK), GraalVM.
+1. **Java Development Kit (JDK)**. Digunakan untuk menjalankan kode program yang kita tulis. Ada beberapa jenis JDK yang bisa kita pilih, di antaranya: JDK dari Oracle, OpenJDK, Temurin (dulu namanya AdoptJDK), GraalVM.
 2. **Editor**. Digunakan untuk menulis kode program. Ada banyak sekali pilihan editor yang bisa digunakan, mulai dari Notepad, Notepad++, Atom, SublimeText, IntelliJ IDEA, NetBeans, Eclipse dan lain sebagainya.
 
 Masing-masing memiliki keunggulannya dan kekurangannya. Kita dapat memilih salah satu di antaranya sesuai dengan kenyamanan.
 
-> Berikut adalah artikel yang menjelaskan tentang **Cara Instalasi JDK pada Windows**. 
+> Berikut adalah artikel yang menjelaskan tentang [**Cara Instalasi JDK pada Windows**.](02-cara-instalasi-jdk-pada-windows.md) 
 
 Untuk instalasi *editor* umumnya tidak sulit, karena sebagian besar mudah diinstalasi menggunakan *installer* atau *application setup*. Jadi, kita cukup mengikuti tahapan-tahapan yang ada di aplikasi *installer*-nya.
 
