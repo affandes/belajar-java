@@ -10,11 +10,12 @@ Apa saja online compiler yang dapat kita gunakan?
 
 Yang perlu kamu lakukan adalah akses [Repl.it](https://repl.it/) menggunakan browser kamu, makanya kamu mesti konek ke internet, punya paket data.
 
- ![Replit](aset\image-2.png)
+ ![Replit](./aset/image-2.png)
 
 Kalo sudah muncul seperti ini, tinggal klik tombol + new repl untuk mulai ngoding. Pilih bahasa pemrograman yang mau dipake, misalnya Java.
 
- ![Buat Repl baru](aset%5Cimage-3.png "Buat Repl baru")
+ ![Buat Repl baru](./aset/image-3.png)
+ 
 
 Beres ???
 
