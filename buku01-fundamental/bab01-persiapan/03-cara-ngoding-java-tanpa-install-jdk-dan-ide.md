@@ -23,7 +23,7 @@ Kamu bakal lihat tampilan IDE All-in yang bisa langsung kamu gunakan untuk ngodi
 
 Lihat hasilnya!
 
- ![IDE Online dari Replit](aset\image-4.png)
+ ![IDE Online dari Replit](./aset/image-4.png)
 
 Gimana?? Mudahkan?!
 

@@ -4,7 +4,9 @@ Buat kita yang memulai belajar Java, penting bagi kita mengetahui kesiapan dalam
 
 ## Apa itu Program Hello World?
 
-Sederhananya, program Hello World hanya program yang menampilkan *output* "Hello World".![Program Hello World](aset\carbon--1-.png)
+Sederhananya, program Hello World hanya program yang menampilkan *output* "Hello World".
+
+![Program Hello World](./aset/carbon--1-.png)
 
 Tidak penting kata apa yang mau di-*output*-kan, bisa "Hello World", "Salam" atau lainnya. Apabila kita berhasil membuat program Hello World berarti kita sudah siap untuk belajar bahasa pemrograman tersebut.
 
@@ -23,15 +25,17 @@ Secara umum terlihat sederhanya, kan? Kita akan bahas satu persatu setiap langka
 
 Instalasi JDK hanya diperlukan sekali saja, jika sebelumnya kita sudah pernah instalasi JDK di komputer kita, maka langkah ini tidak perlu dilakukan lagi berulang-ulang.
 
-Cara mudah mengetahui kalo komputer kita (versi Windows) sudah dilakukan instalasi JDK, yaitu dengan cara menjalankan perintah berikut pada Terminal atau Command Line:![Cek versi Java](aset\carbon--2-.png)
+Cara mudah mengetahui kalo komputer kita (versi Windows) sudah dilakukan instalasi JDK, yaitu dengan cara menjalankan perintah berikut pada Terminal atau Command Line:
+
+![Cek versi Java](./aset/carbon--2-.png)
 
 Apa hasil yang dikeluarkan menunjukkan versi dari JDK-nya, berarti JDK sudah terinstal di komputer. Berikut contoh output yang dihasilkan jika JDK sudah terinstal di komputer kita:
 
-![Versi Java](aset\carbon--4-.png)
+![Versi Java](./aset/carbon--4-.png)
 
 Namun, jika JDK belum diinstal di komputer kita, biasanya akan muncul output seperti berikut:
 
-![Java tidak terinstal](aset\carbon--5-.png)
+![Java tidak terinstal](./aset/carbon--5-.png)
 
 Jika komputer kita belum terinstal JDK, kita harus instalasi JDK terlebih dahulu.
 
@@ -70,7 +74,9 @@ Dan masih ada beberapa lagi yang dapat kita gunakan untuk menulis kode program J
 
 Buatlah sebuah direktori atau folder yang nantinya akan kita gunakan untuk menyimpan semua file program. Di dalamnya kita buat sebuah file **Main.java**, kita bisa menggunakan editor untuk membantu kita membuat file tersebut.
 
-Tulis kode program berikut ke dalam file **Main.java** yang sudah dibuat tadi:![Kode Program Hello Woorld](aset\carbon--6-.png)
+Tulis kode program berikut ke dalam file **Main.java** yang sudah dibuat tadi:
+
+![Kode Program Hello Woorld](./aset/carbon--6-.png)
 
 Jangan lupa disimpan file tersebut.
 
@@ -80,23 +86,23 @@ Jangan lupa disimpan file tersebut.
 
 Kalo kita menggunakan Text Editor seperti Notepad++ atau Notepad, kita harus melakukan *compiling* terhadap kode program yang kita buat di atas. Setelah itu baru kita jalankan kode yang sudah di-*compile*.
 
-![Perintah untuk compile kode Java](aset\carbon--7-.png)
+![Perintah untuk compile kode Java](./aset/carbon--7-.png)
 
 Setelah program berhasil di-*compile*, kita jalankan perintah berikut:
 
-![Perintah menjalankan program Java](aset\carbon--8-.png)
+![Perintah menjalankan program Java](./aset/carbon--8-.png)
 
 Jika berhasil, maka output yang dihasilkan akan sama seperti berikut:
 
-![Program Hello World](aset\carbon--1-.png)
+![Program Hello World](./aset/carbon--1-.png)
 
 ------
 
 Sedangkan kalo kita menggunakan Code Editor seperti Visual Studio Code, Sublime Text atau menggunakan IDE seperti IntelliJ IDEA, Eclipse dan NetBeans, kita tidak perlu repot-repot compile terlebih dahulu, bahkan kita dimudahkan dengan menekan satu tombol **Run** saja.
 
-![Tombol Run pada Visual Studio Code](aset\image.png)
+![Tombol Run pada Visual Studio Code](./aset/image.png)
 
-![Tombol Run pada IntelliJ IDEA](aset\image-1.png)
+![Tombol Run pada IntelliJ IDEA](./aset/image-1.png)
 
 ------
 

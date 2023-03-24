@@ -4,7 +4,7 @@ Istilah *Floating Point*, *Float*, *Real*, *Double* mengacu kepada maksud yang s
 
 Angka berkoma pada dasarnya adalah bilangan pecahan. Misalnya pecahan ½ sebenarnya adalah angka 0,5 (dibaca: nol koma lima). Berikut kode program untuk menampilkan angka berkoma:
 
-![Kode program untuk menampilkan bilangan berkoma](aset\carbon--21-.png)
+![Kode program untuk menampilkan bilangan berkoma](./aset/carbon--21-.png)
 
 Variabel **nilai** berupa tipe data *double*. Dengan demikian variabel tersebut dapat menyimpan angka 87,9 (dibaca: delapan puluh tujuh koma sembilan).
 
@@ -12,7 +12,7 @@ Variabel **nilai** berupa tipe data *double*. Dengan demikian variabel tersebut 
 
 Berikut contoh-contoh kode program untuk menyimpan angka berkoma:
 
-![Contoh kode program untuk membuat dan menyimpan angka berkoma](aset\carbon--24-.png)
+![Contoh kode program untuk membuat dan menyimpan angka berkoma](./aset/carbon--24-.png)
 
 Pada kode program di atas, variabel **nilaiD** dapat menyimpan angka berkoma walaupun ditulis tanpa tanda koma.
 
@@ -33,15 +33,15 @@ Karena perbedaan antara kedua tipe data ini hanya tingkat presisinya, sehingga a
 
 Perhatikan kode program berikut ini:
 
-![Kode program untuk membuat variabel dengan tipe data float](aset\carbon--25-.png)
+![Kode program untuk membuat variabel dengan tipe data float](./aset/carbon--25-.png)
 
 Kita harus menambahkan huruf **F** atau **f** setelah angka supaya angka tersebut dianggap sebagai tipe data *float*. Jika kita tidak menambahkan huruf **F** atau **f** maka Java akan menganggap angka tersebut sebagai *double*. Untuk membuktikannya kita perhatikan kode program berikut:
 
-![Tanpa huruf F diakhir angka, maka tidak bisa disimpan ke variabel float](aset\carbon--26-.png)
+![Tanpa huruf F diakhir angka, maka tidak bisa disimpan ke variabel float](./aset/carbon--26-.png)
 
 Jika kode program tersebut dijalankan akan menghasilkan *error* seperti berikut:
 
-![Pesan error dari kode program sebelumnya](aset\carbon--28-.png)
+![Pesan error dari kode program sebelumnya](./aset/carbon--28-.png)
 
 Pesan *error* tersebut menjelaskan adanya tipe data yang tidak kompatibel. Variabel *float* tidak dapat digunakan untuk menyimpan data *double*. Data *double* yang dimaksud adalah angka 2.5 tanpa disertai dengan huruf **F** atau **f**.
 
