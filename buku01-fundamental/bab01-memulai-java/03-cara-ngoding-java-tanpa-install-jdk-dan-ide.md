@@ -10,11 +10,11 @@ Apa saja online compiler yang dapat kita gunakan?
 
 Yang perlu kamu lakukan adalah akses [Repl.it](https://repl.it/) menggunakan browser kamu, makanya kamu mesti konek ke internet, punya paket data.
 
- ![Replit](./aset/image-2.png)
+ ![Replit](buku01-fundamental/bab01-memulai-java/aset/image-2.png)
 
 Kalo sudah muncul seperti ini, tinggal klik tombol + new repl untuk mulai ngoding. Pilih bahasa pemrograman yang mau dipake, misalnya Java.
 
- ![Buat Repl baru](./aset/image-3.png)
+ ![Buat Repl baru](buku01-fundamental/bab01-memulai-java/aset/image-3.png)
  
 
 Beres ???
@@ -23,7 +23,7 @@ Kamu bakal lihat tampilan IDE All-in yang bisa langsung kamu gunakan untuk ngodi
 
 Lihat hasilnya!
 
- ![IDE Online dari Replit](./aset/image-4.png)
+ ![IDE Online dari Replit](image-4.png)
 
 Gimana?? Mudahkan?!
 

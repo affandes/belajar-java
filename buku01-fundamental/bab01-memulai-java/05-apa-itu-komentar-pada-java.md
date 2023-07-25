@@ -2,7 +2,7 @@
 
 Untuk memudahkan kita mengetahui tentang Komentar pada kode program Java, perhatikan kode program berikut:
 
-![Komentar pada kode program Java](./aset/carbon--29-.png)
+![Komentar pada kode program Java](carbon--29-.png)
 
 Baris kode program yang diawali dengan simbol "//" merupakan Komentar. Setiap komentar pada kode program Java **tidak akan dieksekusi** atau diproses untuk dijalankan.
 
@@ -20,7 +20,7 @@ Ada beberapa cara menggunakan komentar, di antaranya:
 
 Berikut contoh penggunaan komentar pada kode program:
 
-![Cara menggunakan komentar pada kode program Java](./aset/carbon--30-.png)
+![Cara menggunakan komentar pada kode program Java](carbon--30-.png)
 
 Ada perbedaan antara komentar *single-line* dan komentar *multi-line*. Pada *single-line* kita menggunakan simbol garis miring ganda "**//**" di awal komentar, sedangkan pada komentar *multi-line* kita menggunakan simbol garis miring dan asteriks "**/\***" di awal komentar dan ditutup dengan asteriks dan garis miring "***/**" di akhir komentar.
 
