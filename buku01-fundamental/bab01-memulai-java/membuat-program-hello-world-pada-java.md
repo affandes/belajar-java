@@ -40,12 +40,12 @@ Setelah dijalankan perintah di atas, akan muncul hasil output sebagai berikut:
 Hello world
 ```
 
-Selamat! Kita sudah berhasil membuat program Hello world menggunakan Java.
+Selamat! Kita sudah berhasil membuat program Hello world menggunakan Java. Dengan begitu kita bisa [lanjut mempelajari materi berikutnya](#selanjutnya).
 
 ## Gimana jika tidak berhasil?
 Biasanya yang membuat program Hello world tidak dapat dijalankan adalah:
 1. [Penulisan kode program yang tidak tepat](membuat-program-hello-world-pada-java.md#penulisan-kode-program-yang-tidak-tepat).
-2. Belum ada JDK (Java Development Kit) yang terinstall dengan benar pada komputer.
+2. Belum ada [JDK (Java Development Kit) yang terinstall](membuat-program-hello-world-pada-java.md#instalasi-jdk) dengan benar pada komputer.
 
 ### Penulisan kode program yang tidak tepat
 Ketika menulikan kode program Java, sebaiknya kita perlu memperhatikan hal-hal berikut:
@@ -53,7 +53,17 @@ Ketika menulikan kode program Java, sebaiknya kita perlu memperhatikan hal-hal b
 2. Perhatikan spasi, tanda titik, koma, titik-koma dan simbol lainnya. Simbol-simbol tersebut harus ditulis sesuai dengan yang seharusnya, tidak dapat diubah-ubah sembarangan.
 3. Perhatikan tanda kurung. Berbagai jenis tanda kurung punya kegunaan masing-masing. Tanda kurang `[]` tidak dapat diganti dengan tanda `()`. Penggunaan tanda kurung yang salah dapat membuat program tidak dapat dijalankan.
 
-> Pelajari lebih lanjut tentang [Cara penulisan program Java yang wajib kita ketahui](cara-penulisan-program-java-yang-wajib-kita-ketahui).
+> Pelajari lebih lanjut tentang [cara penulisan program Java yang wajib kita ketahui](cara-penulisan-program-java-yang-wajib-kita-ketahui).
 
 ### Instalasi JDK
-Penyebab lain yang membuat kode program Java tidak dapat dijalankan adalah JDK yang tidak terinstal dengan baik. JDK (Java Development Kit) adalah program yang digunakan untuk menjalankan kode program Java. Jika JDK belum terinstal dengan baik, maka
+Penyebab lain yang membuat kode program Java tidak dapat dijalankan adalah JDK yang tidak terinstal dengan baik. JDK (Java Development Kit) adalah program yang digunakan untuk menjalankan kode program Java. 
+Jika JDK belum terinstal dengan baik di komputer kita, silahkan pelajari lebih lanjut tentang cara instalasi JDK berikut ini:
+1. Instalasi JDK untuk pengguna Windows
+2. Instalasi JDK untuk pengguna Linux
+3. Instalasi JDK untuk pengguna Mac
+4. Apa saja JDK yang banyak digunakan programmer Java?
+5. Instalasi beberapa versi JDK untuk pengguna Windows
+6. Instalasi beberapa versi JDK untuk pengguna Linux
+7. Instalasi beberapa versi JDK untuk pengguna Mac
+
+## Selanjutnya

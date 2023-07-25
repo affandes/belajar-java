@@ -1,2 +1,5 @@
 # IDE Based Config
 .obsidian
+
+# Mac Folder
+.DS_Store
