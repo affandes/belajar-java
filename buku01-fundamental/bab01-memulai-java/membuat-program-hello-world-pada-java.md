@@ -44,8 +44,8 @@ Selamat! Kita sudah berhasil membuat program Hello world menggunakan Java. Denga
 
 ## Gimana jika tidak berhasil?
 Biasanya yang membuat program Hello world tidak dapat dijalankan adalah:
-1. [Penulisan kode program yang tidak tepat](membuat-program-hello-world-pada-java.md#penulisan-kode-program-yang-tidak-tepat).
-2. Belum ada [JDK (Java Development Kit) yang terinstall](membuat-program-hello-world-pada-java.md#instalasi-jdk) dengan benar pada komputer.
+1. [Penulisan kode program yang tidak tepat](#penulisan-kode-program-yang-tidak-tepat).
+2. Belum ada [JDK (Java Development Kit) yang terinstall](#instalasi-jdk) dengan benar pada komputer.
 
 ### Penulisan kode program yang tidak tepat
 Ketika menulikan kode program Java, sebaiknya kita perlu memperhatikan hal-hal berikut:
