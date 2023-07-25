@@ -5,9 +5,9 @@ Cara paling mudah untuk memulai membuat program Java adalah dengan membuat progr
 Ketik kode berikut ini menggunakan Text Editor seperti NotePad atau sejenisnya.
 ```java
 public class Main {
-	public static void main(String[] args) {
-		System.out.println("Hello world");
-	}
+  public static void main(String[] args) {
+    System.out.println("Hello world");
+  }
 }
 ```
 
@@ -67,3 +67,4 @@ Jika JDK belum terinstal dengan baik di komputer kita, silahkan pelajari lebih l
 7. Instalasi beberapa versi JDK untuk pengguna Mac
 
 ## Selanjutnya
+Kita telah berhasil membuat program Hello world menggunakan Java. Selanjutnya kita dapat mempelajari materi tentang Data, Variabel dan Tipe Data.
