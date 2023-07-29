@@ -80,3 +80,5 @@ Harus kita simpan ke dalam file dengan nama `SayHello.java`.
 ## Kesimpulan
 
 Kita sudah mengetahui ketiga aturan dasar dalam menulis kode program Java. Aturan ini diperlukan untuk memudahkan kita dalam menulis kode program. Selain itu juga memudahkan orang lain membaca kode program yang kita tulis.
+
+> Pelajari selanjutnya tentang [Data, Variabel dan Tipe Data](../bab02-data-variabel-dan-tipe-data/01-kenalan-dengan-variabel-dan-tipe-data-pada-java.md).
