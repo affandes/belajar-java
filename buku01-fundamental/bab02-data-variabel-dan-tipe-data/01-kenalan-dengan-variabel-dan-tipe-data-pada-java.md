@@ -4,27 +4,57 @@ Variabel dan Tipe Data termasuk salah satu Fundamental Java yang wajib kita paha
 
 ## Kenalan dengan Istilah Literal/Data
 
-Perhatikan kode program Hello World yang sudah kita bahas pada artikel [Cara Membuat Program Hello World Menggunakan Java](https://kuliahprogramming.id/cara-membuat-program-hello-world-menggunakan-java/) berikut:
+Perhatikan kode program Hello World yang sudah kita bahas pada artikel [Cara Membuat Program Hello World Menggunakan Java](../bab01-memulai-java/05-cara-membuat-program-hello-world-menggunakan-java.md) berikut:
 
-![Contoh program Hello World menggunakan Java](./aset/carbon--6--1.png)
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+```
 
-Kode **"Hello world"** adalah sebuah Literal atau Data. Tipe dari literal tersebut adalah teks atau String. Kita mudah saja mengetahui ciri-cirinya yaitu menggunakan tanda kutip-ganda (double-quote) di awal dan di akhir literal.
+Kode **"Hello World"** (termasuk tanda kutip ganda) adalah sebuah Literal atau Data. Tipe dari literal tersebut adalah teks atau String. Kita mudah saja mengetahui ciri-cirinya yaitu menggunakan tanda kutip-ganda (*double-quote*) di awal dan di akhir literal.
 
-Sekarang kita coba ganti literal **"Hello world"** dengan literal angka **2022**, maka kode program kita akan menjadi seperti berikut:
+Sekarang kita coba ganti literal **"Hello world"** dengan literal angka **2022**, kode program kita akan menjadi seperti berikut:
 
-![Kode program setelah dimodifikasi](./aset/carbon--9-.png)
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println(2022);
+  }
+}
+```
 
 Coba kita perhatikan! Literal angka **2022** tidak menggunakan tanda kutip-ganda. Inilah yang membedakan literal teks dengan literal angka. Jika **literal teks harus menggunakan tanda kutip-ganda**, sedangkan **literal angka tidak menggunakan tanda kutip-ganda**.
 
-Jadi, literal itu adalah representasi suatu nilai berdasarkan tipenya. Beda tipe, beda juga cara menuliskannya. Literal inilah yang akan disimpan ke dalam variabel.
+Jadi, literal itu adalah representasi suatu data atau nilai berdasarkan tipenya. Beda tipe, beda juga cara menuliskannya. Literal inilah yang akan disimpan ke dalam variabel.
 
 ## Kenalan dengan Variabel
 
 Seperti air di dalam cangkir, literal adalah airnya, sedangkan variabel adalah cangkirnya. Jika literal adalah suatu nilai, berarti variabel adalah tempat untuk menyimpan nilai tadi. Perhatikan kode program berikut:
 
-![Menggunakan variabel untuk menyimpan literal angka 2022](./aset/carbon--11-.png)
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    int tahun = 2022;
+    System.out.println(tahun);
+  }
+}
+```
 
-Kode **tahun** adalah sebuah variabel yang dapat menyimpan literal angka. Angka **2022** disimpan ke dalam variabel bernama **tahun**. Kemudian pada kode berikutnya, variabel **tahun** dijadikan representasi/simbol untuk mendapatkan angka **2022**.
+Kode **tahun** adalah sebuah variabel yang dapat menyimpan literal angka. Angka **2022** disimpan ke dalam variabel bernama **tahun**. Kemudian pada kode berikutnya, variabel **tahun** dijadikan representasi/simbol untuk mendapatkan angka **2022**. Ketika kita menampilkan nilai dari variabel tahun, maka secara otomatis angka **2022** yang ditampilkan.
+
+Ketika nilai dari variabel **tahun** kita ubah menjadi **2023**, maka, tanpa mengubah kode yang lain, hasilnya akan menampilkan angka **2023**.
+
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    int tahun = 2023;
+    System.out.println(tahun);
+  }
+}
+```
 
 ## Apa itu Tipe Data?
 
@@ -32,13 +62,20 @@ Coba perhatikan kode program sebelumnya, pada saat menyimpan angka **2022** ke d
 
 Coba kita ganti tipe data angka atau **int** menjadi tipe data teks atau **String** seperti sebelumnya, perhatikan kode program berikut.
 
-![Menggunakan variabel untuk menyimpan tipe data teks](./aset/carbon--12-.png)
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    String tahun = 2023;
+    System.out.println(tahun);
+  }
+}
+```
 
 Ketika kita ganti tipe data int menjadi String, literal angka sebelumnya tidak dapat dimasukkan ke dalam variabel String. Karena literal angka hanya dapat dimasukkan ke variabel angka saja, begitu juga dengan literal teks hanya dapat dimasukkan ke variabel teks saja.
 
 ## Apa Saja Tipe Data pada Java
 
-Secara umum, tipe data hanya terdiri dari 2 jenis besar, yaitu: (1) Tipe Data Numerik; dan (2) Tipe Data Nonnumerik. Namun, jika dirincikan dapat dibagi menjadi beberapa tipe data seperti gambar berikut ini:
+Secara umum, tipe data pada Java hanya terdiri dari 2 jenis besar, yaitu: (1) Tipe Data Numerik; dan (2) Tipe Data Nonnumerik. Namun, jika dirincikan dapat dibagi menjadi beberapa tipe data seperti gambar berikut ini:
 
 ![Tipe data primitif pada Java](./aset/image-2.png)
 

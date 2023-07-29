@@ -1,14 +1,14 @@
-# Cara Ngoding Java Tanpa Perlu Install JDK dan IDE
+# Cara Ngoding Java Tanpa Perlu Instal JDK dan IDE
 
-Pada dasarnya menuliskan kode program Java dan menjalankan kode program Java tersebut di komputer kita memerlukan JDK dan Editor ada terinstal di komputer kita. Namun, dengan teknologi saat ini memungkinkan kita dapat menulis kode program secara online dan menjalankan kode program tersebut juga secara online.
+Pada dasarnya menuliskan kode program Java dan menjalankan kode program Java tersebut di komputer kita memerlukan JDK dan Editor ada terinstal di komputer kita. Namun, dengan teknologi saat ini memungkinkan kita dapat menulis kode program secara *online* dan menjalankan kode program tersebut juga secara *online*.
 
-Ya, dengan ngoding online kamu hanya perlu mengakses website-website penyedia online compiler atau online IDE untuk mulai ngoding tanpa perlu pikirkan instalasi JDK dan IDE, langsung ngoding!
+Ya, dengan ngoding online kamu hanya perlu mengakses *website-website* penyedia *online compiler* atau *online* IDE untuk mulai ngoding tanpa perlu pikirkan instalasi JDK dan IDE, langsung ngoding!
 
-Apa saja online compiler yang dapat kita gunakan?
+Apa saja *online compiler* yang dapat kita gunakan?
 
 ## [Replit.com](http://Replit.com)
 
-Yang perlu kamu lakukan adalah akses [Repl.it](https://repl.it/) menggunakan browser kamu, makanya kamu mesti konek ke internet, punya paket data.
+Yang perlu kamu lakukan adalah akses [Repl.it](https://repl.it/) menggunakan *browser* kamu, makanya kamu mesti konek ke internet, punya paket data.
 
  ![Replit](buku01-fundamental/bab01-memulai-java/aset/image-2.png)
 
