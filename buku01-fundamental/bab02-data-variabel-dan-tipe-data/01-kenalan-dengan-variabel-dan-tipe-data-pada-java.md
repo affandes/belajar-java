@@ -77,7 +77,24 @@ Ketika kita ganti tipe data int menjadi String, literal angka sebelumnya tidak d
 
 Secara umum, tipe data pada Java hanya terdiri dari 2 jenis besar, yaitu: (1) Tipe Data Numerik; dan (2) Tipe Data Nonnumerik. Namun, jika dirincikan dapat dibagi menjadi beberapa tipe data seperti gambar berikut ini:
 
-![Tipe data primitif pada Java](./aset/image-2.png)
+```mermaid
+flowchart LR;
+  root(Tipe Data Primitif) --> num(Numerik);
+  root(Tipe Data Primitif) --> non(Nonnumerik);
+  num --> I(Integer);
+  num --> F(Floating Point);
+  num --> C(Character);
+  non --> boolean[boolean];
+  I --> byte[byte];
+  I --> short[short];
+  I --> int[int];
+  I --> long[long];
+  F --> float[float];
+  F --> double[double];
+  C --> char[char];
+  classDef pri fill:#eee;
+  class boolean,byte,short,int,long,float,double,char pri;
+```
 
 Tipe data di atas disebut **Tipe Data Primitif**. Sebagian besar dari tipe data primitif adalah numerik atau angka. Ada 3 tipe data berupa numerik, yaitu:
 
