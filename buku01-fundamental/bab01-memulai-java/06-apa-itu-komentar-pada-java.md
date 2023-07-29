@@ -63,4 +63,4 @@ Ada perbedaan antara komentar *single-line* dan komentar *multi-line*. Pada *sin
 
 Sampai disini gimana? Sudah paham kah cara menggunakan komentar pada Java?
 
-> Pelajari selanjutnya tentang [Data, Variabel dan Tipe Data](01-kenalan-dengan-variabel-dan-tipe-data-pada-java.md).
+> Pelajari selanjutnya tentang [Data, Variabel dan Tipe Data](../bab02-data-variabel-dan-tipe-data/01-kenalan-dengan-variabel-dan-tipe-data-pada-java.md).

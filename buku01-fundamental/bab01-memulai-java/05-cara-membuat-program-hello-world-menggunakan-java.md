@@ -85,4 +85,4 @@ Inilah program Hello World yang sudah kita buat menggunakan bahasa Java. Berjala
 Berikut materi-materi yang dapat kita pelajari selanjutnya:
 1. [Menggunakan komentar di dalam kode program Java](06-apa-itu-komentar-pada-java.md)
 2. Mengetahui beberapa [aturan sederhana dalam menulis kode program Java](07-3-aturan-wajib-diketahui-saat-menulis-program-java.md)
-3. Mempelajari tentang [Data, Variabel dan Tipe Data](01-kenalan-dengan-variabel-dan-tipe-data-pada-java.md)
+3. Mempelajari tentang [Data, Variabel dan Tipe Data](../bab02-data-variabel-dan-tipe-data/01-kenalan-dengan-variabel-dan-tipe-data-pada-java.md)
