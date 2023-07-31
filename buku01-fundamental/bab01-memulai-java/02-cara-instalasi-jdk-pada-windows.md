@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: instalasi jdk, windows
+video: 0
+published: false
+---
 # Inilah Cara Instalasi JDK pada Windows
 
 - [ ] Pindahkan artikel di bawah ke dalam artikel baru

@@ -86,10 +86,10 @@ Jika kode program tersebut dijalankan akan menghasilkan *error* seperti berikut:
 1 error
 ```
 
-![Pesan error dari kode program sebelumnya](./aset/carbon--28-.png)
-
-Pesan *error* tersebut menjelaskan adanya tipe data yang tidak kompatibel. Variabel *float* tidak dapat digunakan untuk menyimpan data *double*. Data *double* yang dimaksud adalah angka 2.5 tanpa disertai dengan huruf **F** atau **f**.
+Pesan *error* tersebut menjelaskan adanya tipe data yang tidak kompatibel. Variabel *float* tidak dapat digunakan untuk menyimpan literal *double*. Literal *double* yang dimaksud adalah angka 2.5 tanpa disertai dengan huruf **F** atau **f**.
 
 ## Kesimpulan
 
-Kita sudah mengenal tipe data Floating Point yang terdiri dari tipe data float dan double. Tipe data ini digunakan untuk menyimpan data angka berkoma atau angka desimal. Sedangkan jika kita ingin menyimpan data bilangan bulat, kita dapat menggunakan tipe data Integer.
+Kita sudah mengenal tipe data Floating Point yang terdiri dari tipe data *float* dan *double*. Tipe data ini digunakan untuk menyimpan data angka berkoma atau angka desimal. Sedangkan jika kita ingin menyimpan data bilangan bulat, kita dapat menggunakan tipe data Integer.
+
+Selanjutnya ada beberapa tipe data numerik lainnya yang biasa digunakan pada Java, yaitu [Tipe Data Character](04-memahami-tipe-data-character.md).

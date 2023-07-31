@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: persiapan, belajar
+video: 0
+published: false
+---
 # Persiapkan Ini Sebelum Belajar Java
 
 Apakah kamu sedang mulai belajar pemrograman Java? Atau akan kuliah pemrograman menggunakan bahasa Java? Kalo iya, maka kamu perlu mempersiapkan hal-hal berikut untuk memudahkan kamu belajar pemrograman Java.
