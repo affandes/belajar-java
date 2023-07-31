@@ -1,5 +1,17 @@
 # Kenalan dengan Variabel dan Tipe Data pada Java
 
+- [x] Buat outline materi
+- [ ] Periksa link-link
+- [x] Periksa typo
+- [x] Periksa kalimat
+- [x] Semua source code dijadikan teks
+- [ ] Buat link ke artikel Tipe Data Referensi
+- [ ] Buat link ke artikel Tipe Data Integer
+- [ ] Buat link ke artikel Tipe Data Floating Point
+- [ ] Buat link ke artikel Tipe Data Character
+- [ ] Buat link ke artikel Tipe Data Boolean
+- [ ] Buat link ke artikel Operator
+
 Variabel dan Tipe Data termasuk salah satu Fundamental Java yang wajib kita pahami. Karena hampir semua kode program Java tidak lepas dari Variabel dan Tipe Data. Untuk itu kita perlu memahami tentang Variabel dan Tipe Data. Tapi, sebelum itu, ada beberapa istilah yang harus kita ketahui terlebih dahulu.
 
 ## Kenalan dengan Istilah Literal/Data
@@ -58,9 +70,9 @@ public class HelloWorld {
 
 ## Apa itu Tipe Data?
 
-Coba perhatikan kode program sebelumnya, pada saat menyimpan angka **2022** ke dalam variabel **tahun**, terdapat kode **int** yang ditulis sebelum nama variabel **tahun**. Kode **int** itu adalah tipe data **Integer** atau tipe data angka.
+Coba perhatikan kode program sebelumnya, pada saat menyimpan angka **2022** ke dalam variabel **tahun**, terdapat kode **int** yang ditulis sebelum nama variabel **tahun**. Kode *int* itu adalah tipe data **Integer** atau tipe data angka.
 
-Coba kita ganti tipe data angka atau **int** menjadi tipe data teks atau **String** seperti sebelumnya, perhatikan kode program berikut.
+Coba kita ganti tipe data angka atau *int* menjadi tipe data teks atau String seperti sebelumnya, perhatikan kode program berikut.
 
 ```java
 public class HelloWorld {
@@ -71,7 +83,7 @@ public class HelloWorld {
 }
 ```
 
-Ketika kita ganti tipe data int menjadi String, literal angka sebelumnya tidak dapat dimasukkan ke dalam variabel String. Karena literal angka hanya dapat dimasukkan ke variabel angka saja, begitu juga dengan literal teks hanya dapat dimasukkan ke variabel teks saja.
+Ketika kita ganti tipe data *int* menjadi String, literal angka sebelumnya tidak dapat dimasukkan ke dalam variabel String. Karena literal angka hanya dapat dimasukkan ke variabel angka saja, begitu juga dengan literal teks hanya dapat dimasukkan ke variabel teks saja.
 
 ## Apa Saja Tipe Data pada Java
 
@@ -96,7 +108,10 @@ flowchart LR;
   class boolean,byte,short,int,long,float,double,char pri;
 ```
 
-Tipe data di atas disebut **Tipe Data Primitif**. Sebagian besar dari tipe data primitif adalah numerik atau angka. Ada 3 tipe data berupa numerik, yaitu:
+Tipe data di atas disebut **Tipe Data Primitif**. Sebagian besar dari tipe data primitif adalah numerik atau angka. Dan sebagian kecil adalah tipe data nonnumerik. 
+
+### Tipe data numerik
+Ada 3 tipe data berupa numerik, yaitu:
 
 1. Integer, adalah bilangan bulat.
 2. Floating point, adalah bilangan berkoma.
@@ -104,17 +119,73 @@ Tipe data di atas disebut **Tipe Data Primitif**. Sebagian besar dari tipe data 
 
 Berikut contoh kode program yang menggunakan berbagai tipe data primitif.
 
-![Contoh kode program dengan berbagai tipe data primitif](./aset/carbon--13-.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    int bilBulat = 10;
+    double bilBerkoma = 14.3;
+    char simbol = 66;
+    System.out.println(bilBulat);
+    System.out.println(bilBerkoma);
+    System.out.println(simbol);
+  }
+}
+```
 
-Sedangkan untuk tipe data nonnumerik hanya berupa **Boolean**. Yaitu tipe data yang bernilai **True** atau **False**. Tipe data ini banyak digunakan untuk operasi-operasi logika dan perbandingan.
+Berikut *output* yang dihasilkan dari kode program di atas.
+
+```shell
+10
+14.30
+B
+```
+
+### Tipe data nonnumerik
+Sedangkan untuk tipe data nonnumerik hanya berupa Boolean. Yaitu tipe data yang bernilai **True** atau **False**. Tipe data ini banyak digunakan untuk operasi-operasi logika dan perbandingan. Perhatikan contoh kode program berikut.
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    boolean var1 = false;
+    boolean var2 = 10 >= 9;
+    System.out.println(var1);
+    System.out.println(var2);
+  }
+}
+```
+
+## Tipe Data Referensi 
+
+Selain Tipe Data Primitif, ada juga Tipe Data Referensi yang dapat digunakan pada Java. Salah satu Tipe Data Referensi adalah String.
+
+```mermaid
+flowchart LR
+  root(Tipe Data di Java) --> a(Tipe Data Primitif);
+  root --> b(Tipe Data Referensi);
+  root --> c(Tipe Data Spesial);
+  b --> ba[String];
+  b --> bb["<i>Class</i>"];
+  c --> ca[Array];
+  classDef pri fill:#eee;
+  class ba,bb,ca pri;
+```
 
 ## Membuat Variabel Pada Java
 
 Membuat variabel pada Java sangat *simple* sekali, berikut kita contohkan pada kode program berikut:
 
-![Kode program untuk membuat variabel](./aset/carbon--23-.png)
+```java
+public class Main {
+  public static void main(String[] args) {
+    String nama = "Budi";    // Tipe data String
+    int nilai = 12;          // Tipe data Integer
+    double rataRata = 7.85;  // Tipe data Floating Point
+    boolean setuju = true;   // Tipe data Boolean
+  }
+}
+```
 
-Kita dapat perhatikan, untuk membuat sebuah variabel kita harus menentukan tipe data dari variabelnya terlebih dahulu, kemudian diikuti dengan nama variabelnya.
+Dapat kita perhatikan, untuk membuat sebuah variabel kita harus menentukan tipe data dari variabelnya terlebih dahulu, kemudian diikuti dengan nama variabelnya. Perhatikan ilustrasi berikut ini.
 
 ![Aturan umum membuat sebuah variabel](./aset/image-3.png)
 
@@ -123,11 +194,14 @@ Semua tipe data yang ada pada Java dapat digunakan dalam membuat variabel, misal
 ## Memahami Masing-Masing Tipe Data
 
 Untuk memudahkan kita memahami tentang berbagai tipe data di atas, masing-masing tipe data akan kita bahas pada artikel berikut:
-
-> Berikut artikel yang menjelaskan tentang **Tipe Data Integer Pada Java**.
+1. Memahami Tipe Data [Integer](02-memahami-tipe-data-integer-pada-java.md)
+2. Memahami Tipe Data [Floating Point](03-memahami-tipe-data-floating-point.md)
+3. Memahami Tipe Data Character
+4. Memahami Tipe Data Boolean
+5. Memahami Tipe Data String
 
 ------
 
 ## Kesimpulan
 
-Akhirnya kita bisa mengenal berbagai macam tipe data yang ada pada bahasa pemrograman Java. Tentunya mengetahui tipe data saja tidak cukup sampai kita dapat menggunakannya dengan benar pada program yang akan kita buat. Dengan demikian, langkah selanjutnya yang perlu kita pelajari adalah menggunakan tipe data tersebut menggunakan Operator.
+Kita sudah mengenal berbagai tipe data yang ada pada bahasa pemrograman Java. Tentunya mengetahui tipe data saja tidak cukup sampai kita dapat menggunakannya dengan benar pada program yang akan kita buat. Dengan demikian, selanjutnya kita perlu pelajari cara  menggunakan tipe data tersebut menggunakan [Operator](../bab03-operator-expression-statement-block/01-kenalan-dengan-operator-dan-operand-pada-java.md).
