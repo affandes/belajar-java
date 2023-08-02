@@ -196,12 +196,12 @@ Semua tipe data yang ada pada Java dapat digunakan dalam membuat variabel, misal
 Untuk memudahkan kita memahami tentang berbagai tipe data di atas, masing-masing tipe data akan kita bahas pada artikel berikut:
 1. Memahami Tipe Data [Integer](02-memahami-tipe-data-integer-pada-java.md)
 2. Memahami Tipe Data [Floating Point](03-memahami-tipe-data-floating-point.md)
-3. Memahami Tipe Data Character
-4. Memahami Tipe Data Boolean
-5. Memahami Tipe Data String
+3. Memahami Tipe Data [Character](04-memahami-tipe-data-character.md)
+4. Memahami Tipe Data [Boolean](05-memahami-tipe-data-boolean.md)
+5. Memahami Tipe Data [String](06-memahami-tipe-data-string.md)
 
 ------
 
 ## Kesimpulan
 
-Kita sudah mengenal berbagai tipe data yang ada pada bahasa pemrograman Java. Tentunya mengetahui tipe data saja tidak cukup sampai kita dapat menggunakannya dengan benar pada program yang akan kita buat. Dengan demikian, selanjutnya kita perlu pelajari cara  menggunakan tipe data tersebut menggunakan [Operator](../bab03-operator-expression-statement-block/01-kenalan-dengan-operator-dan-operand-pada-java.md).
+Kita sudah mengenal berbagai tipe data yang ada pada bahasa pemrograman Java. Tentunya mengetahui tipe data saja tidak cukup sampai kita dapat menggunakannya dengan benar pada program yang akan kita buat. Dengan demikian, selanjutnya kita perlu pelajari cara  menggunakan tipe data tersebut menggunakan [Operator](01-kenalan-dengan-operator-operand-dan-expression-pada-java.md).
