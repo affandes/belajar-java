@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: names convention, kode program, case sensitive
+video: 0
+published: false
+---
 # 3 Aturan Yang Wajib Diketahui Saat Menulis Program Java
 
 Menulis program Java ternyata ada aturannya. Umumnya programmer Java menggunakan aturan-aturan ini. Aturan ini dibuat untuk memudahkan kita membuat program Java. Trus, apa saja aturan-aturan tersebut?

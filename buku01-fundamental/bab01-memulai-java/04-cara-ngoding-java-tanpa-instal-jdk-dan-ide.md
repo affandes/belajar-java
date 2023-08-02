@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: ngoding, install jdk, instalasi jdk, ide online, editor online
+video: 1
+published: false
+---
 # Cara Ngoding Java Tanpa Perlu Instal JDK dan IDE
 
 Pada dasarnya menuliskan kode program Java dan menjalankan kode program Java tersebut di komputer kita memerlukan JDK dan Editor ada terinstal di komputer kita. Namun, dengan teknologi saat ini memungkinkan kita dapat menulis kode program secara *online* dan menjalankan kode program tersebut juga secara *online*.

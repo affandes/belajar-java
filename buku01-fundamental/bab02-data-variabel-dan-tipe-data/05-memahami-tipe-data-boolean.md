@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, data-variabel-dan-tipe-data-pada-java
+keywords: tipe data, boolean
+video: 0
+published: false
+---
 # Memahami Tipe Data Boolean
 
 Tipe data boolean adalah tipe data yang paling sederhana, namun kenyataannya tipe data ini sangat banyak digunakan di dalam kode program manapun. Karena tipe data ini menentukan logika pemrograman yang dibuat. 
@@ -56,7 +62,7 @@ true
 true
 ```
 
-Untuk memahami lebih lanjut tentang bagaimana cara membuat *expression* yang menghasilkan `true` atau `false` kita dapat mempelajari tentang [Operator, Expression](../bab03-operator-expression-statement-block/01-kenalan-dengan-operator-operand-dan-expression-pada-java.md), Statement dan Block.
+Untuk memahami lebih lanjut tentang bagaimana cara membuat *expression* yang menghasilkan `true` atau `false` kita dapat mempelajari tentang [Operator, Expression](01-kenalan-dengan-operator-operand-dan-expression-pada-java.md), Statement dan Block.
 
 ## Kesimpulan
 

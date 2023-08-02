@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, data-variabel-dan-tipe-data-pada-java
+keywords: tipe data, char, string, karakter
+video: 0
+published: false
+---
 # Memahami Tipe Data Character
 
 Character adalah tipe data yang unik di Java. Selain termasuk ke dalam tipe data numerik (angka), tipe data ini sebenarnya mewakili karakter atau simbol satuan pada teks. Perhatikan contoh kode program berikut:

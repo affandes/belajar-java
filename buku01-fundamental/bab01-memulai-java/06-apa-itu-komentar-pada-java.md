@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: komentar, comment
+video: 0
+published: false
+---
 # Apa itu Komentar pada Java
 
 Sebelum kita membahas lebih jauh tentang Komentar pada kode program Java, perhatikan kode program berikut:

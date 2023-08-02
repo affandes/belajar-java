@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: error, bug
+video: 0
+published: false
+---
 # Inilah Error yang Paling Sering Dilakukan Programmer Java Pemula
 
 Ketika kita baru belajar pemrograman Java, pastinya tidak akan luput dari error. Mungkin saja karena lupa titik-koma (`;`) atau pun lupa tanda titik (`.`) bisa menyebabkan kita frustasi dalam mencari penyebab errornya. 
@@ -44,4 +50,39 @@ Ketika pesan error tersebut tertulis `cannot find symbol`, berarti:
     }
   }
   ```
+
+## Titik-Koma
+
+Inilah pesan error yang juga paling sering kita dapatkan pada saat belajar Java.
+
+```shell
+./Main.java:4: error: ';' expected
+      System.out.println(hasil)
+                               ^
+1 error
+```
+
+Pesan error `';' expected` menunjukkan bahwa kode yang kita tulis belum diakhiri dengan tanda titik-koma (`;`). Tentunya kita perlu perhatikan nama file dan baris kode yang tercantum pada pesan error untuk memudahkan menemukan kode program tersebut.
+
+## Might Not Have Been Initialized
+
+Pesan error ini juga termasuk pesan error yang sering kita dapatkan ketika kita membuat sebuah variabel yang belum ada datanya. Berikut pesan error yang biasanya muncul:
+
+```shell
+./Main.java:4: error: variable hasil might not have been initialized
+      System.out.println(hasil);
+                         ^
+1 error
+```
+
+Ketika pesan errornya adalah `variable <.....> might not have been initialized` menunjukkan bahwa variabel yang kita gunakan belum diinisialisasi atau belum memiliki data. Berikut contoh kode program yang akan menghasilkan error seperti di atas.
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    String nama;
+    System out.println(nama);
+  }
+}
+```
 

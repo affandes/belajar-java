@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, data-variabel-dan-tipe-data-pada-java
+keywords: literal, data, variabel, tipe data
+video: 0
+published: false
+---
 # Kenalan dengan Variabel dan Tipe Data pada Java
 
 - [x] Buat outline materi

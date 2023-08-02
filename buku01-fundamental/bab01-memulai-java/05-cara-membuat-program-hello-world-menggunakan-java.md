@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: hello world
+video: 0
+published: false
+---
 # Cara Membuat Program Hello World Menggunakan Java
 
 Buat kita yang memulai belajar Java, penting bagi kita mengetahui kesiapan dalam belajar. Cara paling populer adalah membuat program Hello World.

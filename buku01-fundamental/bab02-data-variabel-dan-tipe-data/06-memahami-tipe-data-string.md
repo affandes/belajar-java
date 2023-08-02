@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, data-variabel-dan-tipe-data-pada-java
+keywords: tipe data, string, text, teks, char, character, karakter
+video: 0
+published: false
+---
 # Memahami Tipe Data String
 
 Tipe Data String tidak termasuk ke dalam Tipe Data Primitif pada Java. String termasuk ke dalam Tipe Data Referensi atau Nonprimitif. Coba perhatikan kode program berikut:
@@ -76,4 +82,4 @@ Dan masih ada beberapa operasi lainnya yang dapat digunakan pada String. Bagi ka
 
 ## Kesimpulan
 
-Kita sudah mempelajari tentang berbagai tipe data dasar pada Java. Tipe-tipe dasar ini sangat banyak digunakan dalam pembuatan program menggunakan Java. Untuk memahami cara menggunakan tipe data tersebut, kita dapat mempelajari tentang [Operator, Expression](../bab03-operator-expression-statement-block/01-kenalan-dengan-operator-operand-dan-expression-pada-java.md), Statement dan Block.
+Kita sudah mempelajari tentang berbagai tipe data dasar pada Java. Tipe-tipe dasar ini sangat banyak digunakan dalam pembuatan program menggunakan Java. Untuk memahami cara menggunakan tipe data tersebut, kita dapat mempelajari tentang [Operator, Expression](01-kenalan-dengan-operator-operand-dan-expression-pada-java.md), Statement dan Block.

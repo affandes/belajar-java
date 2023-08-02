@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: error, exception, bug
+video: 0
+published: false
+---
 # Mengenal Error pada Java
 
 Error sering kali terjadi ketika kita membuat kode program, khususnya di Java. Karena Java termasuk bahasa pemrograman yang cukup ketat aturan penulisannya. Sehingga, kesalahan sedikit saja dapat menyebab terjadi error di kode program kita.

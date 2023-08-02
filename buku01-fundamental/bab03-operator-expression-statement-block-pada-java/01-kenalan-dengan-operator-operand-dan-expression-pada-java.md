@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, operator-expression-statement-block-pada-java
+keywords: operator, operand, expression
+video: 0
+published: false
+---
 # Kenalan Dengan Operator, Operand dan Expression Pada Java
 
 Data dan variabel tidak akan berguna jika tidak dioperasikan. Operasi data dan variabel sangat banyak sekali. Misalkan menambahkan antara variabel pertama dan variabel kedua, dan sebagainya.
@@ -10,7 +16,7 @@ Ada 2 (dua) istilah yang harus kita pahami pada awal pembahasan ini, yaitu **Ope
 
 Supaya kita lebih mudah mengenali *operator* dan *operand* yang ada di dalam kode program, perhatikan ilustrasi berikut ini!
 
-![Operator dan operand](./aset/image-5.png)
+![Operator dan operand](image-5.png)
 Tanda ➕ pada ilustrasi di atas adalah sebuah _operator_. Sedangkan angka 10 dan angka 25 adalah _operand_. Ketika operator dijalankan terhadap _operand_, maka _operator_ tersebut akan menghasilkan sebuah data baru. Pada contoh di atas, angka `10` ditambahkan dengan angka `25` akan menghasilkan angka baru, yaitu angka `35` dengan tipe data `int`.
 
 Selain tanda ➕ juga terdapat banyak simbol lainnya yang berfungsi sebagai _operator_. Mengetahui berbagai macam _operator_ akan memudahkan kita untuk membuat sebuah instruksi pada pemrograman Java. Perhatikan kode program berikut ini!
@@ -27,7 +33,7 @@ public class Main {
 Pada kode `int nilai = 10;` di atas, simbol `=` (baca: sama dengan) adalah juga _operator_. Simbol tersebut berfungsi untuk menyimpan data yang ada pada _operand_ sebelah kanan, disimpan ke _operand_ sebelah kiri.
 
 Pada kode `int hasil = nilai + 20;` di atas terdapat 2 (dua) _operator_ yang berbeda, yaitu _operator_ `=` (baca: sama dengan) dan *operator* `+` (baca: plus). Kedua _operator_ ini akan dioperasikan berurutan sesuai dengan ketentuan tertentu. Perhatikan ilustrasi berikut!
-![Urutan operasi operator](./aset/image-6.png)
+![Urutan operasi operator](image-6.png)
 Berikut tahapan untuk memproses *operator* di atas:
 1. Proses bagian kanan terlebih dahulu, yaitu kode `nilai + 20`. Variabel `nilai` dan literal `20` adalah *operand*. Sedangkan tanda `+` adalah *operator* penjumlahan. 
 2. Variabel `nilai` digantikan ke literalnya yaitu `10` (perhatikan kode program sebelumnya). Berikutnya dilakukan penjumlahan antara literal `10` dan literal `20`.
@@ -43,10 +49,11 @@ Ada banyak sekali operator yang dapat digunakan pada Java. Sebagian di antaranya
 1. Operator Aritmatika
 2. Operator *Increment* dan *Decrement*
 3. Operator *Assignment*
-5. Operator Perbandingan
-6. Operator Logika
-4. Operator Bitwise dan Bit Shift
-5. Operator Lainnya
+4. Operator Perbandingan
+5. Operator Logika
+6. Operator Bitwise dan Bit Shift
+7. Operator Pada String
+8. Operator Ternary
 
 ## Selanjutnya
 

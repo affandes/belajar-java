@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, data-variabel-dan-tipe-data-pada-java
+keywords: tipe data, integer, int, long, short, byte
+video: 0
+published: false
+---
 # Memahami Tipe Data Integer Pada Java
 
 Tipe Data Integer adalah tipe data yang digunakan untuk menyimpan **bilangan bulat**. Agar kita mudah memahaminya, yuk kita coba latihan menggunakan kode program berikut:

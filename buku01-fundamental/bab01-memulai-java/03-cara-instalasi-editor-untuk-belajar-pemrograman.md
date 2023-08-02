@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, memulai-java
+keywords: install editor, instalasi editor, ide, code editor
+video: 0
+published: false
+---
 # Cara Instalasi Editor untuk Belajar Pemrograman
 
 - [ ] Buat link artikel untuk instalasi semua editor di berbagai OS.

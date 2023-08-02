@@ -1,3 +1,9 @@
+---
+tags: java/fundamental, data-variabel-dan-tipe-data-pada-java
+keywords: tipe data, float, double, floating point, real, decimal
+video: 0
+published: false
+---
 # Memahami Tipe Data Floating Point, Real atau Double pada Java
 
 Istilah *Floating Point*, *Float*, *Real*, *Double* mengacu kepada maksud yang sama, yaitu bilangan berkoma. Di dalam pemrograman Java, penting bagi kita mengetahui tentang tipe data ini, karena tipe data ini dapat menyimpan angka berkoma.
