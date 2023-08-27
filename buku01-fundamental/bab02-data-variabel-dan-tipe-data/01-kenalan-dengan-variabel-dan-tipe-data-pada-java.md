@@ -74,6 +74,52 @@ public class HelloWorld {
 }
 ```
 
+## Membuat Variabel
+
+Seperti contoh di atas, untuk membuat sebuah variabel, kita harus menentukan tipe data, nama dan data dari variabel tersebut. Perhatikan contoh kode program berikut!
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    // Membuat variabel
+    int nilai = 99;
+  }
+}
+```
+
+Pada contoh di atas, kita membuat sebuah variabel dengan nama `nilai` dan memiliki data `99`. 
+
+## Membuat Variabel Tanpa Data
+
+Sebuah variabel juga dapat dibuat tanpa memasukkan data terlebih dahulu. Perhatikan contoh kode program berikut!
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    int nilai;
+  }
+}
+```
+
+Dengan demikian, variabel `nilai` belum memiliki data angka. Namun, variabel yang belum memiliki nilai tidak dapat digunakan untuk kalkulasi ataupun operasi lainnya sampai diberikan data ke variabel tersebut. Perhatikan contoh kode program berikut!
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    int nilai;
+    System.out.println(nilai);
+  }
+}
+```
+
+Kode program di atas akan menghasilkan error, karena variabel `nilai` belum diinisialisasi, atau belum memiliki data. Sehingga kita harus inisialisasi terlebih dahulu sebelum menggunakan variabel `nilai`. 
+
+## Deklarasi dan Inisialisasi Variabel
+
+Ada 2 tahapan dalam membuat sebuah variabel, yaitu:
+1. Deklarasi, tahapan menentukan tipe data dan nama variabel.
+2. Inisialisasi, tahapan
+
 ## Apa itu Tipe Data?
 
 Coba perhatikan kode program sebelumnya, pada saat menyimpan angka **2022** ke dalam variabel **tahun**, terdapat kode **int** yang ditulis sebelum nama variabel **tahun**. Kode *int* itu adalah tipe data **Integer** atau tipe data angka.

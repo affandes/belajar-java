@@ -78,23 +78,26 @@
 	4. Block finally
 
 
-# Buku 02 - Algoritma Dasar
+# Buku 02 - Pemrograman Berbasis Objek
+
+1. Class dan Object
+	1. Memahami Class sederhana
+	2. Konsep Method pada Class
+	3. Method Static dan Non-Static
+	4. Parameter pada Method
+	5. Membuat package sederhana
+	6. 
+3. Abstraction
+4. Polymorphism
+5. Encapsulation
+
+# Buku 03 - Algoritma Dasar
 
 1. Algoritma
 2. Algoritma Pencarian Sederhana
 3. Algoritma Pengurutan Sederhana
 4. Kompleksitas Algoritma
 
-
-# Buku 03 - Pemrograman Berbasis Objek
-
-1. Method
-2. Class
-3. Object
-4. Package
-5. Abstraction
-6. Polymorphism
-7. Encapsulation
 
 # Buku 04 - Struktur Data
 
