@@ -90,6 +90,8 @@
 3. Abstraction
 4. Polymorphism
 5. Encapsulation
+6. Interface
+7. Package
 
 # Buku 03 - Algoritma Dasar
 
@@ -166,7 +168,7 @@
 3. Algoritma Divide and Conquer
 4. Pemrograman Dinamis
 
-
+# Buku 06 - 
 # Buku 06 - Pengembangan Aplikasi
 
 1. Evolusi Aplikasi
