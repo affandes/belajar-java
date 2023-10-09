@@ -9,3 +9,5 @@ published: false
 konsep tree
 aplikasi tree pada pemrograman
 karakteristik tree
+istilah di dalam tree
+operasi pada Tree

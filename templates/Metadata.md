@@ -1,5 +1,5 @@
 ---
-tags: java/struktur-data, tree-pada-java
+tags: java/struktur-data, graph-pada-java
 keywords: 
 video: 0
 published: false
